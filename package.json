@@ -1,0 +1,20 @@
+{
+  "name": "clubotek-server",
+  "version": "1.0.0",
+  "description": "RESTful API server for sport clubs data",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "REST",
+    "server",
+    "clubs"
+  ],
+  "author": "Xavier Chaupitre",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "mongoose": "^4.6.3"
+  }
+}
