@@ -11,7 +11,7 @@ var clubs = require('./routes/clubs');
 // connect to mongodb
 var mongoose = require('mongoose');
 mongoose.Promise = global.Promise;
-mongoose.connect('mongodb://localhost/clubotek-server')
+mongoose.connect('mongodb://localhost/clubotekDB')
   .then(() => console.log('mongodb connection successful'))
   .catch((err) => console.error(err));
 
